@@ -1,0 +1,27 @@
+    body{font-family:Arial, sans-serif;max-width:900px;margin:40px auto;padding:20px;background:#f5f5f5}
+    .container{background:#fff;padding:28px;border-radius:12px;box-shadow:0 6px 24px rgba(0,0,0,.08)}
+    h1{margin:0 0 6px;color:#222}
+    .sub{color:#666;margin:0 0 18px}
+    .notice{background:#fff8e1;border-left:4px solid #ffb300;padding:12px 14px;border-radius:8px;margin:12px 0}
+    .quiz{background:#e3f2fd;border:2px dashed #2196F3;padding:20px;border-radius:10px}
+    .q{margin:16px 0}
+    .q h3{margin:0 0 8px;color:#0d47a1}
+    label{display:block;margin:6px 0;cursor:pointer}
+    button{background:#2196F3;color:#fff;border:none;padding:12px 20px;border-radius:8px;font-size:15px;cursor:pointer}
+    button:hover{background:#1976D2}
+    button#excelBtn{background:#2e7d32;} /* Excel Green */
+    button#excelBtn:hover{background:#1b5e20;}
+    
+    .controls{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}
+    .stats{background:#f7f7f7;padding:14px;border-radius:10px;margin:18px 0;font-family:monospace}
+    #output{background:#263238;color:#aed581;padding:14px;border-radius:10px;max-height:220px;overflow-y:auto;font-family:monospace;font-size:12px;margin-top:16px}
+    .pill{display:inline-block;padding:4px 8px;border-radius:999px;font-size:12px}
+    .pill.ok{background:#e8f5e9;color:#2e7d32}
+    .pill.warn{background:#fff3e0;color:#e65100}
+    .pill.danger{background:#ffebee;color:#c62828}
+    .muted{color:#777}
+    .footer{font-size:12px;color:#777;margin-top:18px}
+    .hidden{display:none}
+    .warning-box{padding:10px;border-radius:8px;margin:12px 0}
+    .warning-1{background:#fff8e1;border-left:4px solid #ffb300}
+    .warning-2{background:#ffebee;border-left:4px solid #c62828}
