@@ -121,7 +121,7 @@
     const wMouse = 0.05, wKeys = 0.10;
     // CRITICAL UPDATE: Blur weight set to 80. 
     // This ensures a single blur (1 * 80) crosses the 75 threshold immediately.
-    const wBlur = 80; 
+    const wBlur = 40; 
 
     const rMouse = Math.min(30, stats.mouseMoves * wMouse);
     const rKeys  = Math.min(30, stats.keyDowns  * wKeys);
@@ -213,5 +213,6 @@
   // ===== Wire up buttons =====
   document.getElementById('submitBtn').addEventListener('click', () => doSubmit(false));
   document.getElementById('excelBtn').addEventListener('click', exportToExcel);
+
 
   log('✨ Proctored Quiz initialized. STRICT MODE.');
